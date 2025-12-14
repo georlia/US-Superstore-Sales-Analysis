@@ -3,7 +3,7 @@
 ### 📊 Dashboard Overview
 This project involves analyzing sales and profit data for a US-based retail superstore. The goal was to identify key areas of profit loss and uncover trends to improve business strategy.
 
-![Dashboard Preview](screeenshot.png)
+![Dashboard Preview](abc.png)
 ---
 
 ### 💼 Business Problem
