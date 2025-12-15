@@ -3,7 +3,7 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Tool](https://img.shields.io/badge/Tool-Power%20BI-yellow)
 
 ### 🚀 Project Overview
-This project is a professional-grade Business Intelligence dashboard designed to analyze sales and profitability for a US-based retail superstore. The goal was to transform raw transaction data into actionable insights, focusing on identifying profit "leaks" and high-performing regions.
+This project is a Business Intelligence dashboard designed to analyze sales and profitability for a US-based retail superstore. The goal was to transform raw transaction data into actionable insights, focusing on identifying profit "leaks" and high-performing regions.
 
 
 ### 📸 The Dashboard
