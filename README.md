@@ -14,11 +14,10 @@ This project is a professional-grade Business Intelligence dashboard designed to
 ---
 ### 🎥 Watch it in Action
 *See the interactive filtering and map zooming features:*
-[
 
 https://github.com/user-attachments/assets/39e2b6f9-ca01-47fc-a1e8-32abfe7bcd10
 
-]
+---
 
 ### 💼 Business Scenario (The Problem)
 **Role:** Junior Data Analyst
