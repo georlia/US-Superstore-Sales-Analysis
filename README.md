@@ -11,7 +11,7 @@ This project is a professional-grade Business Intelligence dashboard designed to
 
 ### 📸 The Dashboard
 
-![US Superstore Dashboard](powerbi-screenshot.jpg)
+![US Superstore Dashboard](powerbi-screenshot.png)
 *(Note: This dashboard features a modern "Grid Layout" design for intuitive navigation and data consumption.)*
 
 ---
