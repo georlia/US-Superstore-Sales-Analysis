@@ -1,31 +1,65 @@
-# 🛒 US Superstore Sales & Profitability Analysis
+# 🛒 US Superstore Sales Analysis
 
-### 📊 Dashboard Overview
-This project involves analyzing sales and profit data for a US-based retail superstore. The goal was to identify key areas of profit loss and uncover trends to improve business strategy.
+![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Tool](https://img.shields.io/badge/Tool-Power%20BI-yellow)
 
-![Dashboard Preview](powerbi-screenshot.png)
+### 🚀 Project Overview
+This project is a professional-grade Business Intelligence dashboard designed to analyze sales and profitability for a US-based retail superstore. The goal was to transform raw transaction data into actionable insights, focusing on identifying profit "leaks" and high-performing regions.
+
+> **Live Dashboard:** [Link to .pbix file or online demo if you have one]
+
 ---
 
-### 💼 Business Problem
-The company is experiencing high sales volume but seeing disproportionately low profits in certain categories. Management needed a clear visualization to understand:
-1. Which products are driving losses?
-2. How are sales trending year-over-year?
-3. Which regions and customer segments are most profitable?
+### 📸 The Dashboard
+
+![US Superstore Dashboard](powerbi-screenshot.jpg)
+*(Note: This dashboard features a modern "Grid Layout" design for intuitive navigation and data consumption.)*
+
+---
+
+### 💼 Business Scenario (The Problem)
+**Role:** Junior Data Analyst
+**Stakeholder:** Regional Sales Manager
+**The Challenge:**
+The company is experiencing high sales volume ($2.3M) but disproportionately low profit margins in specific categories. Management requires a clear, interactive tool to answer:
+1.  **Profitability:** Which products are driving revenue but losing money?
+2.  **Geography:** Where are our strongest and weakest markets?
+3.  **Trends:** How is performance trending year-over-year?
+
+---
 
 ### 🔍 Key Insights & Findings
-* **Profitability Leaks:** While "Tables" generate significant revenue, they are the primary source of financial loss (shown in deep red on the dashboard), suggesting a need to re-evaluate pricing or shipping costs for this category.
-* **Top Performers:** "Copiers" and "Phones" are the most profitable sub-categories.
-* **Sales Trends:** Sales have been consistently increasing from 2014 to 2017, but profit margins have not followed the same trajectory.
-* **Regional Analysis:** The Dashboard allows filtering by State to pinpoint specific low-performing geographic areas.
 
-### 🛠️ Technical Skills Used
-* **Data Cleaning:** Used Power Query to correct data types (resolving currency formatting issues) and remove null values.
-* **Data Modeling:** Established relationships between Sales and Location tables.
-* **DAX Measures:** Created calculated measures for Total Sales, Total Profit, and Profit Margin.
-* **Data Visualization:**
-    * Used **Conditional Formatting** to highlight negative values (Red for loss, Blue for profit).
-    * Implemented interactive **Slicers** for dynamic filtering by Year and State.
-    * Designed a clean, user-friendly layout focusing on actionable KPIs.
+* 🔴 **The "Table" Crisis:** Despite generating significant revenue, the **Tables** sub-category is the primary source of financial loss (shown in clear Red on the dashboard). This indicates a critical pricing or shipping cost issue.
+* 🔵 **Tech Dominance:** **Phones** and **Copiers** are the highest-margin items.
+* 🌍 **Geographic Strategy:** The grayscale map highlights that while the East Coast has high density, specific states in the Central region are underperforming in profit despite high sales volume.
+* 📉 **Discount Impact:** An analysis of the "Discount" KPI suggests that heavy discounting in the Furniture category is eroding margins.
 
 ---
-*Created by [Georlia Sgouraki]*
+
+### 🛠️ Technical Implementation
+
+**1. Data Modeling & Transformation (Power Query)**
+* Cleaned raw data, fixed currency data types, and removed null values.
+* Created a **Star Schema** to optimize performance.
+
+**2. Advanced DAX Measures**
+* Calculated `Total Sales`, `Total Profit`, `Profit Margin %`, and `YoY Growth`.
+* Created dynamic measures for the KPI cards to respond to slicer selection.
+
+**3. UI/UX Design (The "Pro" Touch)**
+* **Grid Layout:** Implemented a structured 3-column layout (KPIs | Visuals | Filters) for maximum readability.
+* **Conditional Formatting:** Used a strict "Blue (Positive) / Red (Negative)" logic to instantly flag underperformance.
+* **Visual Hierarchy:** Used a grayscale map to ensure data points pop, and containerized visuals with shadows to create depth.
+
+---
+
+### 🚀 Strategic Recommendations
+
+Based on this analysis, I recommend the following actions:
+1.  **Immediate Audit of "Tables":** Stop all discounts on Tables and renegotiate shipping rates for this heavy category.
+2.  **Focus Marketing on "Technology":** Shift ad spend towards Phones and Copiers to maximize high-margin sales.
+3.  **Regional Pricing:** Implement region-specific pricing strategies for the Central US to recover profitability.
+
+---
+
+*Created by Georlia Sgouraki - Aspiring Data Analyst*
