@@ -5,7 +5,11 @@
 ### 🚀 Project Overview
 This project is a professional-grade Business Intelligence dashboard designed to analyze sales and profitability for a US-based retail superstore. The goal was to transform raw transaction data into actionable insights, focusing on identifying profit "leaks" and high-performing regions.
 
-> **Live Dashboard:** [Link to .pbix file or online demo if you have one]
+> **Live Dashboard:** [
+
+https://github.com/user-attachments/assets/39e2b6f9-ca01-47fc-a1e8-32abfe7bcd10
+
+]
 
 ---
 
@@ -62,4 +66,4 @@ Based on this analysis, I recommend the following actions:
 
 ---
 
-*Created by Georlia Sgouraki - Aspiring Data Analyst*
+*Created by Georlia Sgouraki*
